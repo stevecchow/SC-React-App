@@ -2760,7 +2760,7 @@ dva-loading@^1.0.4:
   dependencies:
     babel-runtime "^6.26.0"
 
-dva@^2.1.0:
+dva@^2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/dva/-/dva-2.4.1.tgz#a3eeb07bb8bc6e2ff9ffe31799d03cb69e45f5fd"
   integrity sha512-ggj/P4lYa+7GBZuNua2Sn8rDjhbb2Mjt9THUKlunSYSBwIVU5xFIBkCB87JBPc274ojL9h/hKOmVFVFlWzlRpg==
