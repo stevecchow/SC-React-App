@@ -1,0 +1,36 @@
+.Menus-component {
+    .menu-item {
+        line-height: 46px;
+        cursor: pointer;
+        .title {
+            background: #181a20;
+            transition: 0.3s;
+            &:hover {
+                background: #424242;
+                transition: 0.3s;
+            }
+            &.node-active {
+                background: #409adf;
+            }
+        }
+        .iconfont {
+            float: right;
+            margin-right: 16px;
+            text-indent: 0;
+            transform: rotate(0);
+            transition: 0.3s;
+            &.active {
+                transform: rotate(-45deg);
+                transition: 0.3s;
+            }
+        }
+        .icon-down-arrow {
+            border-left: 4px solid #fff;
+            border-bottom: 4px solid #fff;
+            height: 10px;
+            width: 10px;
+            transform: rotate(45deg);
+            margin-top: 12px;
+        }
+    }
+}
