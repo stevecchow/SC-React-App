@@ -1,0 +1,58 @@
+.App {
+    height: 100%;
+    display: flex;
+}
+.menu-content {
+    height: 100%;
+    width: 280px;
+    background: #fff;
+    color: #fff;
+    .logo {
+        height: 64px;
+        line-height: 64px;
+        font-size: 20px;
+        padding: 0 20px;
+        text-align: center;
+        background: #fff;
+        box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+        img {
+            width: 70%;
+            position: relative;
+            top: 14px;
+        }
+    }
+    .menu-list {
+        height: calc(100%-64px);
+    }
+}
+.content {
+    flex: 1;
+    height: 100%;
+    background: #f0f2f5;
+    &-body {
+        padding: 20px;
+        overflow: auto;
+        height: calc(100% - 64px);
+    }
+}
+.pa10 {
+    padding: 10px;
+}
+.cursor {
+    cursor: pointer;
+}
+.label {
+    padding: 0 10px;
+}
+.font-blue {
+    color: rgb(75, 67, 182);
+}
+.pb20 {
+    padding-bottom: 20px;
+}
+.inline-form-col2.ant-form-inline .ant-form-item {
+    width: 43%;
+}
+.inline-form-col3.ant-form-inline .ant-form-item {
+    width: 25%;
+}
