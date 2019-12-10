@@ -22,7 +22,7 @@ class UserContent extends Component {
                     </select>
                 </div>
                 <div className="user-name">
-                    <span>Colin</span>
+                    <span>SteveChow</span>
                     <span>退出</span>
                 </div>
             </div>
